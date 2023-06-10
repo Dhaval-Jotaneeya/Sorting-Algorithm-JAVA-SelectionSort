@@ -64,7 +64,7 @@ public class SelectionSort<K extends Comparable<K>> {
 	}
 
 	public static void main(String[] args) {
-        Integer[] unSortedArray1 = {1, 5, 47, 3, 0, 3, 4}g;
+        Integer[] unSortedArray1 = {1, 5, 47, 3, 0, 3, 4};
         String[] unSortedArray2 = {"USA", "Japan", "japan", "Rwanda", "Germany", "India", "France", "usa"};
     
         SelectionSort<Integer> myProject1 = new SelectionSort<>(unSortedArray1);
